@@ -10,4 +10,4 @@ build: # build image
 
 .PHONY: notebook
 notebook: # serve notebook in localhost:8888
-	docker run -it -p 8888:8888 -v ${PWD}/data:/data my_essentia_with_jupyter
+	docker run --rm -it -p 8888:8888 -v ${PWD}/data:/data -v ${PWD}/pianodeafcraft:/src my_essentia_with_jupyter
