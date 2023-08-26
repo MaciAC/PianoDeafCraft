@@ -1,1 +1,20 @@
-/data
+# System files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# media
+data
+*.png
+*.mp3
+*.mp4
